@@ -1,0 +1,37 @@
+.idea
+*.ipr
+*.iws
+
+*.class
+*.log
+
+# sbt specific
+target
+lib_managed/
+src_managed/
+
+coverage/
+.settings/
+
+server.crt
+server.key
+
+startup.sh
+Dockerfile
+.DS_Store
+.env
+Gemfile.container.lock
+
+ensime.sbt
+.ensime
+.ensime_cache
+*.iml
+tmp
+
+# VS code specific
+.bsp
+.bloop/
+.metals/
+.vscode/
+metals.sbt
+metals/project/
